@@ -9,4 +9,17 @@ def ha():
     global a
     global b    
     global c
-    return 
+    return 2*aria()/a
+def hb():
+    global a
+    global b    
+    global c
+    return 2*aria()/b
+def hc():
+    global a
+    global b    
+    global c
+    return 2*aria()/c
+print("Inaltimea fata de latura a este egala cu",ha())
+print("Inaltimea fata de latura b este egala cu",hb())
+print("Inaltimea fata de latura c este egala cu",hc())
