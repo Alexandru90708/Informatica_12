@@ -1,4 +1,4 @@
-def verificare(n, b)
+def verificare(n, b):
     for c in n:
         if c < '0' or c > '9' or int(c) >= b:
             return False
