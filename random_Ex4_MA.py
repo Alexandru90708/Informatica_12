@@ -1,11 +1,8 @@
 import random
-n=int(input('n='))
-c6=0
-for i in range(n): 
-    nr1=random.randint(1,6)
-    nr2=random.randint(1,6)
-    print(nr1,nr2)
-    if nr1==nr2:
-        c6+=1
-print('Cifra 6 a nimerit de ', c6,'ori')
-
+zar1,zar2=1,2  
+while zar1!=zar2:
+    zar1=random.randint(1, 6)
+    zar2=random.randint(1, 6)
+    print(zar1, zar2)
+print('S-a obținut o dublă!')
+print('Suma punctelor este', zar1+zar2)
