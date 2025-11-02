@@ -63,14 +63,14 @@ intrebari = {
     ]
 }
 tema = random.choice(teme)
-print(f"\nTema aleasă: {tema}\n")
+print(f"Tema aleasă: {tema}\n")
 random.shuffle(intrebari[tema])
 scor = 0
-for i, (q, r) in enumerate(intrebari[tema], start=1):
+for i, (q, r) in enumerate(intrebari[tema],1):
     print(f"{i}. {q}")
-    raspuns = input("Răspuns: ").strip()
+    raspuns=input("Răspuns: ").strip()
     if raspuns.lower() == r.lower():
-        print("✔ Corect!\n")
+        print("Corect!\n")
         scor += 1
     else:
         print(f"Greșit! Răspuns corect: {r}\n")
