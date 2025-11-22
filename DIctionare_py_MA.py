@@ -9,8 +9,7 @@ def dictionairy_1():
     print('key_value', key_value)
     for i in sorted(key_value.keys()):        
         print(i, end=" ")
-    print()
-    print(':cheile sortate in ordine crescatoare.')
+    print('-cheile sortate in ordine crescatoare.')
 def dictionairy_2():    
     key_value = {}        
     key_value[2] = 56    
@@ -21,8 +20,7 @@ def dictionairy_2():
     key_value[3] = 323
     for i in sorted(key_value.keys()):        
         print(i, end=" ")
-    print()
-    print(':valorile sortate in ordine crescatoare dupa cheie (implicit).')
+    print('-valorile sortate in ordine crescatoare dupa cheie (implicit).')
 def dictionairy_3():
     key_value = {}        
     key_value[2] = 56    
@@ -34,8 +32,7 @@ def dictionairy_3():
 
     for k in sorted(key_value, key=lambda x: key_value[x]):
         print(key_value[k], end=" ")
-    print()
-    print(":valorile sortate in ordine crescatoare dupa valoare.")
+    print("-valorile sortate in ordine crescatoare dupa valoare.")
 def dictionairy_4():
     key_value = {}        
     key_value[2] = 56    
@@ -46,8 +43,7 @@ def dictionairy_4():
     key_value[3] = 323
 
     rezultat = sorted(key_value.items(), key=lambda x: x[1])
-    print(rezultat)
-    print(":lista tuplurilor sortata dupa valoare.")
+    print(rezultat,"-lista tuplurilor sortata dupa valoare.")
 def main():   
     dictionairy_1()
     dictionairy_2()
