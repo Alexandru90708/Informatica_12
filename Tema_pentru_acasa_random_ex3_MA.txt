@@ -1,8 +1,0 @@
-import random
-lista=[]
-for x in range(100,1000):
-    if x%24==0:
-        lista.append(x)
-numar = random.choice(lista)
-print("Numărul generat:", numar)
-
