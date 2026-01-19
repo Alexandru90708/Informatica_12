@@ -1,0 +1,6 @@
+import random
+print("10 variante SuperLoto 5 din 36:")
+for i in range(1,11): 
+    varianta = random.sample(range(1,37),5)  
+    varianta.sort()  
+    print(f"Varianta {i}: {varianta}")
