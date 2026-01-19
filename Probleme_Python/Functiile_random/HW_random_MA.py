@@ -1,0 +1,6 @@
+import random
+a,b=random.randint(0,100),random.randint(0,100)
+print('a)Suma(a+b) numerelor',a,'si',b,'este', a+b)
+print('b)Diferenta(a-b) numerelor',a,'si',b,'este', a-b)
+print('  Diferenta(b-a) numerelor',a,'si',b,'este', b-a)
+print('c)Produsul(a*b) numerelor',a,'si',b,'este', a*b)
