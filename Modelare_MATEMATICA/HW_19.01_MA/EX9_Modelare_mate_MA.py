@@ -1,0 +1,5 @@
+N0=int(input("Introduceți valoarea inițială:"))
+r=int(input("Introduceți rata anuală(%):"))
+n=int(input("Introduceți numărul de ani:"))
+N=N0*(1+(r/100)*n)
+print(N0,'de oameni,timp de',n,'ani cu rata anuală de',r,'evoluează în',N,'de oameni.')
